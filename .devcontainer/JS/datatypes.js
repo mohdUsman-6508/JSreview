@@ -1,6 +1,6 @@
 "use strict"
 
-// number ,string ,boolean,null,undefined--primitive datatype
+// number ,string ,boolean,null,undefined,symbol--primitive datatype
 // object ,array, function --complex datatype
 
 let name="omar"
