@@ -15,7 +15,11 @@ alsoVariable='good';
 alsoVariable='better';
 id='001';
 
+let withoutValue;/////////undefined
 
 console.log(alsoVariable);
 console.log(pi,password,id);
 console.table([pi,password,id]);
+console.log(withoutValue);
+console.log(post);//////// using on top of initialization
+var post=3;
