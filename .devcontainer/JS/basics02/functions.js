@@ -55,3 +55,7 @@ function totalAmount(...amount) {
 
 const ta = totalAmount(10, 100, 200, 300);
 console.log(`you have done shopping of ${ta} rupees`);
+
+// remember one thing that
+//  we can call a function anywhere
+//   but function expression we can call only after its definition
