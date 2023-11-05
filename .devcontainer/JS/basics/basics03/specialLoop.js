@@ -40,16 +40,17 @@
 
 //for in loop specially for object
 
-// const goodFriends = {
-//   friend1: { name: "paras", isHappy: true, isSmart: true },
-//   friend2: { name: "kannu", isHappy: true, isSmart: true },
-//   friend3: { name: "chittu", isHappy: true, isSmart: true },
-//   friend4: { name: "khali", isHappy: true, isSmart: true },
-// };
+const goodFriends = {
+  name: "paras",
+  isHappy: true,
+  isSmart: true,
+};
 
-// for (const key in goodFriends) {
-//   console.log(key);
-// }
+for (const key in goodFriends) {
+  console.log(`${key} is ${goodFriends[key]}`);
+  console.log(key);
+  console.log(goodFriends[key]);
+}
 
 //forEach loop
 
