@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chai aur code</title>
+  </head>
+  <body style="background-color: #212121; color: #fff"></body>
+  <button class=".btn">Click</button>
+  <script>
+    // const div = document.createElement("div");
+    // console.log(div);
+    // div.className = "main";
+    // div.id = Math.round(Math.random() * 10 + 1);
+    // div.setAttribute("title", "generated title");
+    // div.style.backgroundColor = "green";
+    // div.style.padding = "12px";
+    // // div.innerText = "Chai aur code"
+    // const addText = document.createTextNode("Chai aur code");
+    // div.appendChild(addText);
+
+    // document.body.appendChild(div);
+
+    const div = document.createElement("div");
+    console.log(div);
+    div.className = "para";
+    div.id = "#txt";
+    div.setAttribute("title", "generatedTitle");
+    div.style.background = "red";
+    div.style.padding = "15px";
+    // div.innerText = "Consistency with Self Confidence";
+    // const addText = document.createTextNode("Consistency with Self Confidence");
+    // div.appendChild(addText);
+
+    const hd = document.createElement("h1");
+    div.append(hd);
+    const pEle = document.createElement("p");
+
+    // console.log(pEle);
+    const hd_txt = document.createTextNode("Self Esteem OR Self Confidence");
+    hd.appendChild(hd_txt);
+
+    const p_txt = document.createTextNode(
+      "It is the ability to achieve what you believe, or you can do it irrespective of the situation."
+    );
+    hd.append(pEle);
+
+    pEle.appendChild(p_txt);
+    document.body.appendChild(div);
+  </script>
+</html>
