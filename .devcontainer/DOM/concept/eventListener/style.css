@@ -1,0 +1,32 @@
+body {
+  background-color: burlywood;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+}
+
+.box1,
+.box2,
+.box3 {
+  border: white solid 3px;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+.reveal {
+  display: block;
+}

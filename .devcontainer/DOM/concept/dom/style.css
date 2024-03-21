@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto 30px;
+}
+
+.fruits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.fruit-item {
+  background-color: gray;
+  color: black;
+  list-style: none;
+  padding: 10px;
+}
+
+.special-item {
+  color: purple;
+  background-color: chartreuse;
+  font-size: x-large;
+  font-weight: 800;
+}
