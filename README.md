@@ -1,2 +1,3 @@
-# JSreview
-JavaScript review 
+# JAVASCRIPT
+JavaScript
+
